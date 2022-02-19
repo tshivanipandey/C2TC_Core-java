@@ -4,7 +4,8 @@ class car
  final int max_speed=120; // add final keyword 
 void controlSpeed()
 {
-//max_Speed=180; //final variable can be changed . will give comiiple time error 
+
+	//max_Speed=180; //final variable can be changed . will give compile time error 
 
 System.out.println("Max speed of the car is " + max_speed);
 }
